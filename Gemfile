@@ -20,4 +20,5 @@ end
 group :development do
   gem 'rubocop', '~> 1.25', '>= 1.25.1'
   gem 'rubocop-rails', '~> 2.13', '>= 2.13.2'
+  gem 'solargraph', '~> 0.44.3'
 end
