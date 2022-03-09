@@ -9,9 +9,9 @@ jobs:
         ports:
           - 3306:3306
         env:
-          - MYSQL_ROOT_USER: root
-          - MYSQL_USER: root
-          - MYSQL_ROOT_PASSWORD: password
+          MYSQL_ROOT_USER: root
+          MYSQL_USER: root
+          MYSQL_ROOT_PASSWORD: password
         options: --health-cmd "mysqladmin ping -h localhost" --health-interval 20s --health-timeout 10s --health-retries 10
     steps:
       # githubにプッシュした最新のコミットを取得し、それに対して処理を実行するよう切り替えている。
