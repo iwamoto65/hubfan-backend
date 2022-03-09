@@ -20,6 +20,10 @@ jobs:
     steps:
       # githubにプッシュした最新のコミットを取得し、それに対して処理を実行するよう切り替えている。
       - uses: actions/checkout@v2
+      - name: Install Bundler
+        run: gem install bundler --no-document -v $(grep "BUNDLED WITH" -1 Gemfile.lock | tail -n 1)
+      - name: Bundle install
+        run: bundle install --path=vendor/bundle --jobs 4 --retry 3
       - name: test
         run: |
           rails version
