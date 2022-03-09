@@ -1,9 +1,0 @@
-name: HubFun Backend Rails Workflows
-on: [push]
-jobs:
-  run:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - run: |
-          echo "hoge"
