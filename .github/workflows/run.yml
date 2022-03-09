@@ -16,7 +16,7 @@ jobs:
         RAILS_ENV: test
         DATABASE_HOST: mysql
     steps:
-      - uses: actions/checkout@2
+      - uses: actions/checkout@v2
       - name: setup docker
         shell: bash
         run: |
