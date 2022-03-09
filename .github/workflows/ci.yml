@@ -26,4 +26,5 @@ jobs:
         run: bundle install --path=vendor/bundle --jobs 4 --retry 3
       - name: test
         run: |
-          docker ps
+          ruby -v
+          cat /etc/os-release
