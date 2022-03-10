@@ -28,4 +28,5 @@ group :development do
   gem 'brakeman', '~> 5.2', '>= 5.2.1'
   gem 'better_errors', '~> 2.9', '>= 2.9.1'
   gem 'binding_of_caller', '~> 1.0'
+  gem 'bullet', '~> 7.0', '>= 7.0.1' # N+1問題の解決
 end
