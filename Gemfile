@@ -24,4 +24,6 @@ group :development do
   gem 'solargraph', '~> 0.44.3'
   gem 'rails-erd', '~> 1.6', '>= 1.6.1'
   gem 'brakeman', '~> 5.2', '>= 5.2.1'
+  gem 'better_errors', '~> 2.9', '>= 2.9.1'
+  gem 'binding_of_caller', '~> 1.0'
 end
