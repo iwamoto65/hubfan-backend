@@ -23,4 +23,5 @@ group :development do
   gem 'rubocop-rails', '~> 2.13', '>= 2.13.2'
   gem 'solargraph', '~> 0.44.3'
   gem 'rails-erd', '~> 1.6', '>= 1.6.1'
+  gem 'brakeman', '~> 5.2', '>= 5.2.1'
 end
