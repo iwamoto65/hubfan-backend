@@ -16,6 +16,7 @@ gem 'rack-cors', '~> 1.1', '>= 1.1.1'
 group :development, :test do
   gem 'debug', platforms: %i[mri mingw x64_mingw]
   gem 'pry-rails', '~> 0.3.9'
+  gem 'rspec-rails', '~> 5.1', '>= 5.1.1'
 end
 
 group :development do
