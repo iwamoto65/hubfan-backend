@@ -8,7 +8,7 @@ ruby '3.1.1'
 gem 'active_model_serializers', '~> 0.10.13' # JSON formatter
 gem 'bootsnap', require: false
 gem 'mysql2', '~> 0.5'
-gem 'puma', '~> 5.0'
+gem 'puma', '>= 5.6.4'
 gem 'rails', '~> 7.0', '>= 7.0.2.3'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'rack-cors', '~> 1.1', '>= 1.1.1'
